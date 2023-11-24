@@ -1,0 +1,11 @@
+gen:
+  # pose: /home/jlurobot/桌面/utools/build/lego.txt
+  pose: /home/jlurobot/桌面/tailor实验结果/112-lio_sam.txt
+  livox_topic: /livox_hap
+  velodyne_topic: /u2102
+  livox_transform: [-1.37607, -0.0491354, 1.3766, 0.01402937, 0.04438576, -0.01375317]
+  global_map: /home/jlurobot/桌面/hloam/src/hloam/map/global_map
+  downsample_rate: 0.9 
+
+  lego: false
+  #xyzrpy: [0, 0, 0, 0, 0, 0] # for hloam
